@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>ConverterApp</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Manrope:500,600,700,800"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:500,600,700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:500,600,"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container"></div>
+    </header>
+    <main class="page">
+      <section class="converter">
+        <div class="converter__container">
+          <div class="converter__head">
+            <div class="converter__head-name">Converter</div>
+            <!-- <div class="converter__currency-picture leftpictire">
+              <img class="mainpicture" src="" alt="" />
+            </div> -->
+          </div>
+          <div class="converter__workarea">
+            <div class="converter__currency">
+              <div class="converter__currency-box">
+                <div class="converter__currency-picture leftpictire">
+                  <img
+                    class="mainpicture"
+                    src="https://countryflagsapi.com/png/ukraine"
+                    alt=""
+                  />
+                </div>
+                <select
+                  class="currenciesleft currencies"
+                  name="currencies"
+                  id="currencies"
+                ></select>
+              </div>
+              <div class="converter__from">From</div>
+              <form action="" class="converter__value">
+                <div class="converter__formbox">
+                  <input type="text" class="converter__value-amount" />
+                </div>
+              </form>
+            </div>
+            <div class="converter__change">
+              <div class="converter__change-icon">
+                <img src="img/changeIcon.png" alt="" />
+              </div>
+            </div>
+            <div class="converter__currency">
+              <div class="converter__currency-box">
+                <select
+                  class="currenciesright currencies"
+                  name="currencies"
+                  id=""
+                ></select>
+                <div class="converter__currency-picture rightpictire">
+                  <img
+                    class="secondarypicture"
+                    src="https://countryflagsapi.com/png/ukraine"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="converter__from">To</div>
+              <div class="converter__amountbox">
+                <p class="converter__amount">0.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="prices">
+        <div class="prices__container">
+          <div class="prices__title">Currencies</div>
+          <div class="prices__body">
+            <div class="prices__item">
+              <div class="prices__item-picture">
+                <img src="https://countryflagsapi.com/png/ukraine" alt="" />
+              </div>
+              <div class="prices__item-box">
+                <div class="prices__item-name">
+                  <div class="prices__item-country">Euro</div>
+                  <div class="prices__item-code">EUR</div>
+                </div>
+                <div class="prices__item-price">$110</div>
+              </div>
+            </div>
+          </div>
+          <div class="prices__load">Load More.....</div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container"></div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
